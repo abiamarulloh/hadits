@@ -1,0 +1,37 @@
+.detailHaditsWrapper {
+  height: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  margin: auto;
+}
+
+.detailHadits h3 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.listenHadits {
+  text-align: center;
+}
+
+
+.detailHadits p:first-child {
+  direction:ltr;
+  font-size: 20px;
+}
+
+.detailHadits p:last-child {
+  text-align: justify;
+}
+
+@media only screen and (min-width: 600px) {
+  .detailHaditsWrapper {
+    height: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+}
